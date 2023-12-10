@@ -1,0 +1,148 @@
+.filter[data-v-a1137fd2] {
+  display: flex;
+  width: 60vw;
+  margin: auto;
+  justify-content: space-evenly;
+  padding: 1rem;
+  background: rgba(20, 40, 40, 0.99);
+  border-radius: 0.5rem;
+}
+.filter .item[data-v-a1137fd2] {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #0a3c64;
+  color: #fff;
+  border-radius: 0.5rem;
+}
+.filter .item[data-v-a1137fd2]:hover {
+  cursor: pointer;
+}
+input[data-v-010c642b] {
+  display: flex;
+  align-self: center;
+  margin: auto;
+  margin-top: 16px;
+  border-radius: 0.3rem;
+  border: 0 solid rgba(30, 60, 70, 0.98);
+  padding: 0.7rem;
+  width: 40vw;
+  font-size: 18px;
+}
+.character[data-v-9e510ac6] {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+  background: rgba(20, 210, 40, 0.9);
+  width: 15vw;
+  border-radius: 1rem;
+  margin-bottom: 0;
+}
+.character .image-character[data-v-9e510ac6] {
+  width: 12vw;
+  height: 12vw;
+  margin: auto;
+  border-radius: 50%;
+}
+.character .characters[data-v-9e510ac6] {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 1.5rem;
+  margin-top: 1.1rem;
+  border-radius: 0.5rem;
+  padding: 0.7rem;
+  background: rgba(200, 200, 200, 0.3);
+}
+.character .characters h3[data-v-9e510ac6],
+.character .characters h4[data-v-9e510ac6],
+.character .characters h5[data-v-9e510ac6],
+.character .characters h6[data-v-9e510ac6] {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-align: center;
+  margin-top: 0.3rem;
+}
+.character .characters .location[data-v-9e510ac6],
+.character .characters .origin[data-v-9e510ac6] {
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+  color: #3b3b48;
+}
+.character .characters .location .origin-name[data-v-9e510ac6],
+.character .characters .origin .origin-name[data-v-9e510ac6] {
+  color: rgba(30, 20, 100, 0.9);
+}
+.character .characters .location .location-name[data-v-9e510ac6],
+.character .characters .origin .location-name[data-v-9e510ac6] {
+  color: rgba(70, 60, 170, 0.9);
+}
+.character .characters .gender[data-v-9e510ac6],
+.character .characters .species[data-v-9e510ac6],
+.character .characters .status[data-v-9e510ac6] {
+  color: #3b3b34;
+}
+.character .characters .type[data-v-9e510ac6] {
+  color: #141414;
+}
+.alive[data-v-9e510ac6] {
+  color: #146478;
+}
+.dead[data-v-9e510ac6] {
+  color: #dc1d3c;
+}
+.unknown[data-v-9e510ac6] {
+  color: #000;
+}
+.alien[data-v-9e510ac6] {
+  color: #045007;
+}
+.human[data-v-9e510ac6] {
+  color: #786418;
+}
+.male[data-v-9e510ac6] {
+  color: #282896;
+}
+.female[data-v-9e510ac6] {
+  color: #be1e46;
+}
+.listCharacters[data-v-5bba9689] {
+  width: 100%;
+}
+.listCharacters .characters[data-v-5bba9689] {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.listCharacters .characters .characters_items[data-v-5bba9689] {
+  margin: 1rem;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-size: 16px;
+  font-family: monospace;
+  background-image: url("../assets/fondo.0098b43d.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.app-container .app-title {
+  text-align: center;
+  padding: 1rem;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  background: rgba(233, 233, 233, 0.82);
+  width: 40%;
+}

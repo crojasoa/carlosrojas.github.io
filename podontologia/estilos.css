@@ -1,0 +1,81 @@
+.contenedor .header .logoO {
+	margin-top: 5rem;
+	height: 70%;
+	background: rgba(255,255,255, .0);
+	width: 30%;
+	border-radius: 40px;
+}
+.contenedor .header .logoO .logoD {
+	height: 230px;
+	margin-bottom: -1rem;
+}
+.contenedor .header .logoO .nombreL {
+	padding: 1.3rem;
+	background: rgba(244,244,244, .0);
+	border-radius: 30px;
+	font-size: 1.7rem;
+	font-family: 'Fredoka One', cursive;
+	font-weight: bold 900;
+	color: #f3f3f3;
+	height: 100px;
+	margin-top: -30px;
+	text-align: center;
+}
+.contenedor .header .carrucel {
+	margin-top: 10rem;
+}
+.contenedor .contenido1 i {
+	font-size: 4rem;
+	padding: auto;
+	justify-content: center;
+	display: flex;
+	margin-top: 2rem;
+} .contenedor .contenido1 p { display: flex; justify-content: center; text-align: center; font-size: 1.8rem; }
+ .contenedor .contenido1 a { color: #000; opacity: .8; } .contenedor .contenido1 a:hover{ background: rgba(255,255,255,.5); opacity: .3; text-decoration: none; cursor: pointer;}
+ .contenedor .contenido1 .E1 { background: rgba(0, 123, 255, 1); }
+ .contenedor .contenido1 .E2 { background: rgba(0, 123, 255, .7); }
+ .contenedor .contenido1 .E3 { background: rgba(0, 123, 255, .5); }
+ .contenedor .contenido1 .E4 { background: rgba(0, 123, 255, .3); }
+ .contenedor .contenido1 .paneles {margin-top: 0.6rem; margin-bottom: 3rem;} 
+ .contenedor .contenido1 .panel1 {display: flex; height: 700px; width: 87%; background: rgba(0, 123, 255, 1);}
+ .contenedor .contenido1 .panel2 {display: none; height: 700px; width: 87%; background: rgba(0, 223, 255, 1);}
+ .contenedor .contenido1 .panel3 {display: none; height: 700px; width: 87%; background: rgba(10, 13, 255, 1);}
+ .contenedor .contenido1 .panel4 {display: none; height: 700px; width: 87%; background: rgba(100, 23, 255, 1);}
+
+
+
+
+
+
+
+/*------------------Media queries---------------------------*/
+ @media screen and (max-width: 1190px) {
+ 	.redes {
+	margin-top: 140px;
+	width: 10%;
+	height: 35%;
+	background: rgba(0, 0, 0, .4); z-index: 3;
+    }
+ }
+ @media screen and (max-width: 670px) {
+ 	.contenedor .contenido1 .paneles {margin-top: 5rem;} 
+ 	.contenedor .contenido1 .elementos {}
+ 	.contenedor {
+	grid-template-rows: 850px 1600px 0px 520px; }
+	.redes {
+	margin-top: 140px;
+	width: 16%;
+	height: 40%;
+	background: rgba(0, 0, 0, .4); z-index: 3;
+    }
+   @media screen and (max-width: 400px) {
+   	.hdr{ height: 110px; }
+   	 .redes {
+	margin-top: 18rem;
+	width: 16%;
+	height: 30%;
+	background: rgba(0, 0, 0, .4); z-index: 3;
+    } .redes .iconos { font-size: 2.4rem;}
+    .contenido1 .elementos p { font-size: 1.3rem;  }
+    .contactanos p {font-size: 1rem;} .contactanos h3 {font-size: 1.3rem;} .contenedor .contactanos .cop .logoR {}
+ }

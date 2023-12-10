@@ -1,0 +1,312 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  header .logo {
+    width: 160px;
+    height: auto;
+    padding-top: 0.5rem;
+    margin-left: 7rem; }
+    header .logo .linkLogo {
+      width: 100%;
+      height: 100%; }
+      header .logo .linkLogo .imgLogo {
+        width: 100%;
+        height: 100%; }
+  header .menu {
+    width: 700px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 4rem; }
+    header .menu .boton {
+      padding: 5px;
+      padding-top: 1rem;
+      text-align: center;
+      height: 100%;
+      text-decoration: none;
+      color: #f3f3f3;
+      width: 25%;
+      display: flex;
+      justify-content: center;
+      font-size: 2rem; }
+      header .menu .boton:hover {
+        text-decoration: underline; }
+
+.contenedor .contenido1 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1214px;
+  height: auto;
+  margin: 0;
+  padding: 0; }
+  .contenedor .contenido1 .lado1 {
+    margin: auto;
+    margin-left: 3rem;
+    margin-right: 1rem;
+    text-align: center;
+    max-width: 700px;
+    font-size: 1.5rem;
+    height: 40%;
+    padding: 1rem;
+    color: #000;
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 20px;
+    border: solid 2px rgba(0, 100, 255, 0.3);
+    background: rgba(0, 134, 205, 0.5); }
+  .contenedor .contenido1 .lado2 .imagenM {
+    margin-top: 1rem;
+    margin-bottom: 7rem;
+    border-radius: 50%;
+    border: 0.5rem solid #fff;
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75); }
+  .contenedor .contenido1 .botonServicios {
+    margin: auto;
+    margin-bottom: 0rem; }
+    .contenedor .contenido1 .botonServicios a {
+      text-decoration: none;
+      color: #000;
+      display: block;
+      -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+      box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75); }
+      .contenedor .contenido1 .botonServicios a h2 {
+        background: rgba(255, 255, 255, 0.6);
+        padding: 1rem;
+        border-radius: 10px 10px 0 0;
+        font-size: 1rem; }
+      .contenedor .contenido1 .botonServicios a:hover {
+        background: white;
+        border-radius: 10px 10px 0 0;
+        color: rgba(0, 0, 0, 0.7); }
+
+.quienesSomos {
+  display: flex;
+  justify-content: space-between; }
+  .quienesSomos .lado3 {
+    margin-top: 3rem;
+    margin-left: 3rem; }
+    .quienesSomos .lado3 img {
+      width: 550px;
+      border-radius: 100%;
+      border: solid 0.5rem #00a5cf;
+      -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+      box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+      background: rgba(0, 134, 205, 0.5); }
+  .quienesSomos .lado4 {
+    margin-top: 2rem;
+    max-width: 100%;
+    height: 510px;
+    margin-right: 3rem;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 20px;
+    border: solid 2px rgba(0, 100, 255, 0.3);
+    background: rgba(255, 255, 255, 0.5);
+    padding: 3rem; }
+    .quienesSomos .lado4 .quienes {
+      font-size: 2.4rem; }
+    .quienesSomos .lado4 h2 {
+      text-align: center;
+      color: #63c7b2; }
+    .quienesSomos .lado4 p {
+      text-align: justify;
+      font-size: 1.1rem; }
+
+.galeria {
+  background: rgba(255, 255, 255, 0.7);
+  width: 90%;
+  margin: auto;
+  position: relative; }
+  .galeria .titulo {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    flex-direction: column; }
+    .galeria .titulo h2 {
+      color: #00a5cf; }
+    .galeria .titulo p, .galeria .titulo h2 {
+      text-align: center;
+      margin-top: 1rem;
+      margin-bottom: 1rem; }
+  .galeria .fila1 {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: rgba(255, 255, 255, 0); }
+    .galeria .fila1 .cart {
+      margin: 10px;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      flex-direction: row; }
+      .galeria .fila1 .cart .tarjeta {
+        width: 30%;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        background: #fff;
+        border-radius: 20px;
+        border: solid 5px rgba(255, 255, 255, 0.7);
+        -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75); }
+        .galeria .fila1 .cart .tarjeta .imagen {
+          width: 100%;
+          margin-left: 0;
+          margin-right: 5px;
+          margin-top: 8px; }
+          .galeria .fila1 .cart .tarjeta .imagen img {
+            width: 100%;
+            height: 250px;
+            border-radius: 10px; }
+  .galeria .fila2 {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: rgba(255, 255, 255, 0); }
+    .galeria .fila2 .cart {
+      margin: 10px;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      flex-direction: row; }
+      .galeria .fila2 .cart .tarjeta {
+        width: 30%;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        background: #fff;
+        border-radius: 20px;
+        border: solid 5px rgba(255, 255, 255, 0.7);
+        -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75); }
+        .galeria .fila2 .cart .tarjeta .imagen {
+          width: 100%;
+          margin-left: 0;
+          margin-right: 5px;
+          margin-top: 8px; }
+          .galeria .fila2 .cart .tarjeta .imagen img {
+            width: 100%;
+            height: 250px;
+            border-radius: 10px; }
+
+.footer {
+  background: rgba(0, 255, 255, 0.7);
+  width: 90%;
+  margin: auto;
+  position: relative; }
+  .footer .contacto {
+    background: rgba(255, 255, 200, 0.9);
+    margin-top: 3rem;
+    text-align: center;
+    color: #00c8cd;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    border-radius: 7px;
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75); }
+  .footer .telefono {
+    background: rgba(0, 0, 0, 0.4);
+    margin-top: 2rem;
+    text-align: center;
+    border-radius: 20px;
+    align-content: middle;
+    display: flex;
+    justify-content: center;
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75); }
+    .footer .telefono h3 {
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+      font-size: 1.2rem; }
+    .footer .telefono .cellIco {
+      margin-top: 0.7rem;
+      margin-bottom: 0.5rem;
+      font-size: 2rem;
+      background: rgba(255, 255, 255, 0.7);
+      padding: 1rem;
+      border-radius: 50%;
+      color: blue;
+      width: 4rem; }
+  .footer .direccion {
+    background: rgba(0, 0, 0, 0.4);
+    margin-top: 2rem;
+    text-align: center;
+    border-radius: 20px;
+    align-content: middle;
+    display: flex;
+    justify-content: space-evenly;
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75); }
+    .footer .direccion h3 {
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+      font-size: 1.2rem; }
+    .footer .direccion .direcIco {
+      margin-top: 0.7rem;
+      margin-bottom: 0.5rem;
+      font-size: 2rem;
+      background: rgba(255, 255, 255, 0.7);
+      padding: 1rem;
+      border-radius: 50%;
+      color: blue;
+      width: 4rem; }
+  .footer .horario {
+    background: rgba(0, 0, 0, 0.4);
+    margin-top: 2rem;
+    text-align: center;
+    border-radius: 20px;
+    align-content: middle;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: space-evenly;
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75); }
+    .footer .horario h3 {
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+      font-size: 1.2rem; }
+    .footer .horario .relojIco {
+      margin-top: 0.7rem;
+      margin-bottom: 0.5rem;
+      font-size: 2rem;
+      background: rgba(255, 255, 255, 0.7);
+      padding: 1rem;
+      border-radius: 50%;
+      color: blue;
+      width: 4rem; }
+  .footer .mapa {
+    width: 70%;
+    margin: auto; }
+    .footer .mapa iframe {
+      width: 100%;
+      margin-top: 5rem;
+      border-radius: 30px;
+      -webkit-box-shadow: 5px 5px 5px 0px #2E3532;
+      box-shadow: 5px 5px 5px 0px #2E3532;
+      -moz-box-shadow: 5px 5px 5px 0px #2E3532; }
+
+/*# sourceMappingURL=estilos.css.map */

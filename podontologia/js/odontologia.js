@@ -1,0 +1,26 @@
+$(document).ready(function(){
+	$('#Procedimientos').click(function(){
+		$('#panel1').css('display','flex');
+		$('#panel2').css('display','none');
+		$('#panel3').css('display','none');
+		$('#panel4').css('display','none');
+	});
+	$('#Reservar').click(function(){
+		$('#panel2').css('display','flex')
+		$('#panel1').css('display','none');
+		$('#panel3').css('display','none');
+		$('#panel4').css('display','none');
+	});
+	$('#Promociones').click(function(){
+		$('#panel3').css('display','flex');
+		$('#panel1').css('display','none');
+		$('#panel2').css('display','none');
+		$('#panel4').css('display','none');
+	});
+	$('#Contactanos').click(function(){
+		$('#panel4').css('display','flex');
+		$('#panel1').css('display','none');
+		$('#panel2').css('display','none');
+		$('#panel3').css('display','none');
+	});
+});

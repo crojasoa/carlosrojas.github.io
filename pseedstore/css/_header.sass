@@ -1,0 +1,45 @@
+.header
+    display: flex
+    justify-content: flex-start
+    background: #38e1b427
+    width: 100vw
+    height: auto
+    padding: 35px
+    .contact-div
+        display: flex
+        .contact
+            text-decoration: underline
+            color: #154d49
+        .arrow
+            color: #ffffff00
+            margin-left: 2px
+            font-size: 1rem
+    .logo
+        display: flex
+        position: absolute
+        left: 40vw
+        .seed
+            font-size: 1.5rem
+            color: #26893a
+        .name-logo
+            font-size: 1.5rem
+            color: #256137
+    .sh-car
+        font-size: 1.56rem
+        cursor: pointer
+        transition: .4s
+        color: #d2ffec
+        background: #196e77e7
+        right: 4vw
+        padding: 10px
+        border-radius: 50%
+        position: fixed
+        &:hover
+            opacity: .5
+
+
+@media screen and (min-width: 600px)
+    .header
+        .logo
+            .seed, .name-logo
+                font-size: 2rem

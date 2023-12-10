@@ -1,0 +1,454 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	/*background: url('img/bg2.jpg');*/
+	background: rgba(10, 10, 10, .9);
+	background-size: 1400px 900px;
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	color: #000;
+	font-family: Sans-serif, Arial;
+	font-size: 16px;
+}
+.contenedor {
+	width: 95%;
+	max-width: 1400px;
+	margin: auto;
+	display: grid;
+	grid-gap: 0;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: 200px 600px 800px 800px 600px; 
+
+	grid-template-areas:"header 	header		header 		header		header" 
+						"contenido1	contenido1 	contenido1 	contenido1	sidebar"
+						"contenido2	contenido2 	contenido2 	contenido2	sidebar"
+						"contenido3	contenido3 	contenido3 	contenido3  sidebar"
+						"footer 	footer 		footer  	footer 		footer";
+}
+
+.contenedor > div {
+	width: 100%;
+	background: #fff;
+	padding: 0;
+	border-radius: 4px; 
+}
+
+.contenedor .header {
+	grid-area: header;
+	background: rgba(1, 1, 0, .0);
+	justify-content: center;
+	align-content: center;
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: row;
+
+}
+.contenedor .header .logo {
+	width: 100%;
+	margin-right: 0rem;
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	margin: 0;
+
+}
+
+.contenedor .header .logo .contlogo {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.contenedor .header .logo .contlogo .logotipo {
+	width: 200px;
+	height: 200px;
+	border-radius: 0%;
+	margin: auto;
+}
+
+.contenedor .header .menu {
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;
+	width: 50%;
+	margin-right: 3rem;
+}
+
+.contenedor .header .menu a {
+	text-decoration: none;
+	color: #fff;
+	opacity: .4;
+	font-size: 1.3rem;
+	margin-top: .3rem;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	padding: 1rem;
+	padding-bottom: 3rem;
+	padding-top: .3;
+	height: 1rem;
+	border-radius: 4px;
+	border: solid 2px rgb(152, 33, 39);
+}
+.contenedor .header .menu a:hover {
+	opacity: .5;
+	background: #000;
+}
+
+.contenedor .header .redes {
+	background: rgba(10, 10, 10, .0);
+	width: 20%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between; 
+	align-content: center;
+	margin-right: 3rem;
+}
+
+.contenedor .header .redes a {
+	display: flex;
+	align-content: center;
+	text-decoration: none;
+	margin-top: 1rem;
+	margin-right: 1.4rem;
+}
+
+.contenedor .header .redes a .facebook,
+.contenedor .header .redes a .mensaje,
+.contenedor .header .redes a .twitter,
+.contenedor .header .redes a .instagram
+{
+	color: #fff;
+	width: 10px;
+	height: 30%;
+	font-size: 2rem;
+	opacity: .7;
+}
+
+.contenedor .contenido1 {
+	grid-area: contenido1;
+	background: rgba(192, 2, 0, .3);
+	/*background: url('img/barco.jpg');*/
+	background-repeat: no-repeat;
+	background-position: start;
+	background-attachment: fixed; 
+	background-size: 1000px 700px;
+	justify-content: center;
+	align-content: center;
+}
+
+.contenedor .contenido1 h3,
+.contenedor .contenido2 h3,
+.contenedor .contenido3 h3
+{
+	/*color: #588B8B;*/
+	color: #000;
+	background: rgba(255, 255, 255, .6);
+	border-radius: 3rem;
+	padding: 1rem;
+	width: 50%;
+	height: 20%;
+	margin-top: 200px;
+	margin-left: 3rem;
+	font-size: 3rem;
+	text-align: center;
+	font-family: 'Shadows Into Light';
+	z-index: 1;
+}
+
+.contenedor .contenido1 .ver,
+.contenedor .contenido2 .ver,
+.contenedor .contenido3 .ver
+{
+	width: 50px;
+	height: 30px;
+	background: #rgba(0, 0, 0, .3);
+	padding: 3rem;
+	margin-top: 15rem;
+	margin-left: 25rem;
+	display: flex;
+	justify-content: center;
+	border: 2px solid #fff;
+	padding-top: 1.4rem;
+	border-radius: 7px;
+}
+
+.contenedor .contenido1 .ver h4,
+.contenedor .contenido2 .ver h4,
+.contenedor .contenido3 .ver h4
+{
+	color: #fff;
+	font-size: 3rem;
+	font-family: 'Yanone Kaffeesatz';
+}
+
+.contenedor .contenido2 {
+	grid-area: contenido2;
+	background: url('img/bar.jpg');
+	background-repeat: no-repeat;
+	background-position: start;
+	background-attachment: fixed; 
+	background-size: 1000px 700px;
+	justify-content: center;
+	align-content: center;
+}
+.contenedor .contenido3 {
+	grid-area: contenido3;
+	background: #588960;
+	background: url('img/plato.jpg');
+	background-repeat: no-repeat;
+	background-position: start;
+	background-attachment: fixed; 
+	background-size: 1000px 700px;
+	justify-content: center;
+	align-content: center;
+}
+
+.contenedor .footer {
+	grid-area: footer;
+	background: rgba(0, 20, 2, .1);
+	border: 2px solid rgb(152, 33, 39);
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.contenedor .sidebar {
+	grid-area: sidebar;
+	background: rgba(244, 30, 200, .0);
+	position: -webkit-sticky; 
+    position: relative;
+    top: 0; 
+}
+
+.contenedor .sidebar .aside {
+	width: 100%;
+	height: 530px;
+	margin: auto;
+	background: rgba(255, 255, 255, .0);
+	/*position: fixed;*/
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
+}
+.contenedor .sidebar .aside .widget1 {
+	width: 100%;
+	height: 270px;
+	margin: auto;
+	background: rgba(2, 81, 123, .0);
+	position: relative;
+	border-radius: 4px 4px 0 0;
+	border: solid 2px rgb(152, 33, 39);
+	border-bottom: 0px;
+}
+.contenedor .sidebar .aside .widget1 .horario {
+	width: 100%;
+	height: 270px;
+	margin: auto;
+	background: rgba(2, 81, 123, .1);
+	position: relative;
+}
+.contenedor .sidebar .aside .widget1 .horario .contactanos {
+	margin-bottom: 0;
+}
+.contenedor .sidebar .aside .widget1 .horario .contactanos .whatsapp {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.contenedor .sidebar .aside .widget1 .horario .contactanos .whatsapp .logowhatsapp {
+	color: #fff;
+	width: 10px;
+	height: 30%;
+	font-size: 2rem;
+	opacity: .7;	
+}
+.contenedor .sidebar .aside .widget1 .horario .contactanos .whatsapp p {
+	font-size: 1.5rem;
+	margin-top: -1rem;
+	margin-left: 2rem;
+}
+.contenedor .sidebar .aside .widget1 .horario p,
+.contenedor .sidebar .aside .widget1 .horario ul,
+.contenedor .sidebar .aside .widget1 .horario li {
+	color: #fff;
+	list-style: none;
+	text-align: center;
+	opacity: .7;
+}
+.contenedor .sidebar .aside .widget1 .horario p{
+	font-size: 2rem;
+	padding-top: .7rem;
+	margin-bottom: 1rem;
+	font-family: 'Anton', sans-serif;
+}
+.contenedor .sidebar .aside .widget2 {
+	width: 100%;
+	height: 263px;
+	margin: auto;
+	background: rgba(2, 81, 123, .1);
+	position: relative;
+	display: flex;
+	justify-content: center;
+	vertical-align: end;
+	flex-direction: column;
+	border-radius: 0 0 4px 4px;
+	border: solid 2px rgb(152, 33, 39);
+	border-top: 0px;
+}
+.contenedor .sidebar .aside .widget2 .direccion {
+	width: 100%;
+	height: 48%;
+	align-self: flex-start;
+}
+.contenedor .sidebar .aside .widget2 .direccion .direccionT {
+	color: #fff;
+	opacity: .7;
+	font-family: 'Anton', sans-serif;
+	text-align: center;
+	font-size: 2rem;
+}
+.contenedor .sidebar .aside .widget2 .direccion .calle {
+	color: #fff;
+	opacity: .7;
+	text-align: center;
+	margin-top: 2rem;
+	font-size: 1rem;
+}
+.contenedor .footer .ubicacion {
+	width: 90%;
+	height: 49%;
+	align-self: flex-start;
+	margin: auto;
+	margin-top: 1rem;
+}
+
+.contenedor .footer .ubicacion .mapa {
+	width: 100%;
+	height: 100%;
+}
+.contenedor .footer .firma {
+	width: 100%;
+	height: 100%;
+	margin-top: 10rem;
+	align-self: flex-end;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+}
+.contenedor .footer .firma .logoR {
+	width: 200px;
+	border-radius: 10%;
+	margin-left: 33.7rem;
+	margin-bottom: 1rem;
+	margin: auto;
+}
+.contenedor .footer .firma .firmaT {
+	color: #fff;
+	opacity: .7;
+	font-family: 'Yanone Kaffeesatz';
+}
+
+
+.contenedor .footer .ubicacion .ubicacionT {
+	margin-top: 0rem;
+	margin-bottom: 3rem;
+	text-align: center;
+	font-size: 2rem;
+	color: #FFF;
+	opacity: .7;
+	font-family: 'Anton', Sans-serif;
+}
+.imagenC {
+	width: 100%;
+	height: 600px;
+	z-index: 2;
+	margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+	.contenedor {
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: auto 500px 500px 500px 600px 600px; 
+		grid-template-areas:"header 	header		header " 
+							"contenido1	contenido1 	contenido1"
+							"contenido2	contenido2 	contenido2"
+							"contenido3	contenido3 	contenido3"
+							"sidebar 	sidebar		sidebar"
+							"footer 	footer 		footer";
+	}
+	.contenedor .header {
+		display: flex;
+		flex-direction: column;
+		margin: auto;
+		position: relative;
+
+	}
+	.contenedor .header .menu {
+	margin: auto;
+	}
+	.contenedor .header .logo .contlogo .logotipo {
+	width: 100px;
+	height: 100px;
+	margin: auto;}
+	.contenedor .header .redes {
+	margin: auto;
+	padding: 0;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	}
+
+	.contenedor .contenido1 {
+		margin-top: 2rem;
+	}
+}
+@media screen and (max-width: 565px) {
+	.contenedor .header .menu {
+	margin: auto;
+	padding: 0;
+	}
+	.contenedor .header .menu a {
+	margin: auto;
+	padding: 0;
+	border: none;
+	}
+	.contenedor {
+		width: 100%;
+		overflow: hidden;
+		
+	}
+	.contenedor .contenido1,
+	.contenedor .contenido2,
+	.contenedor .contenido3 {
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+	}
+	.imagenC {
+	width: 500px;
+	height: 300px;
+	z-index: 2;
+	margin: auto;
+	}
+	.contenedor .contenido1 h3,
+	.contenedor .contenido2 h3,
+	.contenedor .contenido3 h3
+	{
+		font-size: 2rem;
+	}
+	.contenedor .contenido3 h3 {
+		height: 30%;
+	}
+}

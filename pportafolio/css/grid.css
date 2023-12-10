@@ -1,0 +1,83 @@
+.seccion1 .galeria {
+	display: grid;
+	grid-gap: .5rem;
+	grid-row-gap: 4rem;
+	width: 100%;
+	height: auto;
+	grid-template-areas: "quince     trece     once       dieciseis"
+						 "cinco       diecisiete     siete      ocho"
+						 "nueve 	 catorce   tres       seis"
+						 "cuatro	 dieciocho     uno 	      diez"
+						 "dos		 doce 	diecinueve veinte";
+ 
+	grid-template-rows: repeat(5, 170px);
+	grid-template-columns: repeat(4, 1fr);
+
+}
+.seccion1 .galeria .uno    		{  grid-area: uno;   }
+.seccion1 .galeria .dos    		{  grid-area: dos;   }
+.seccion1 .galeria .tres   		{  grid-area: tres;  }
+.seccion1 .galeria .cuatro 		{  grid-area: cuatro;}
+.seccion1 .galeria .cinco  		{  grid-area: cinco; }
+.seccion1 .galeria .seis   		{  grid-area: seis;  }
+.seccion1 .galeria .siete  		{  grid-area: siete; }
+.seccion1 .galeria .ocho   		{  grid-area: ocho;  }
+.seccion1 .galeria .nueve  		{  grid-area: nueve; }
+.seccion1 .galeria .diez   		{  grid-area: diez;  }
+.seccion1 .galeria .once   		{  grid-area: once;  }
+.seccion1 .galeria .doce   		{  grid-area: doce;  }
+.seccion1 .galeria .trece  		{  grid-area: trece;  }
+.seccion1 .galeria .catorce 	{  grid-area: catorce;  }
+.seccion1 .galeria .quince   	{  grid-area: quince;  }
+.seccion1 .galeria .dieciseis   {  grid-area: dieciseis;  }
+.seccion1 .galeria .diecisiete  {  grid-area: diecisiete;  }
+.seccion1 .galeria .dieciocho   {  grid-area: dieciocho;  }
+.seccion1 .galeria .diecinueve  {  grid-area: diecinueve;  }
+.seccion1 .galeria .veinte   	{  grid-area: veinte;  }
+
+@media (max-width: 568px) {
+	.seccion1 .galeria {
+		grid-template-areas: "quince     trece"
+						 	 "once       dieciseis"
+						 	 "cinco       nueve"
+						 	 "siete      ocho"
+						 	 "cuatro     catorce"
+							 "tres       seis"
+							 "diecisiete doce"
+							 "uno    	 diez"
+							 "dos		 dieciocho"
+							 "diecinueve veinte";
+	    
+	    grid-template-rows: repeat(10, 200px);
+	    grid-template-columns: repeat(2, 50%);
+	    grid-row-gap: 1.5rem;
+	}
+}
+@media (max-width: 400px) {
+	.seccion1 .galeria {
+		grid-template-areas: "quince"    
+							 "trece"
+						 	 "once"  
+						 	 "dieciseis"
+						 	 "cinco"  
+						 	 "nueve"
+						 	 "siete"
+						 	 "ocho"
+						 	 "cuatro"
+							 "catorce"
+							 "tres"
+							 "diecisiete"
+							 "dos"
+							 "doce"
+							 "uno"
+							 "diez"
+							 "seis"
+							 "dieciocho"
+							 "diecinueve"
+							 "veinte";
+	    
+	    grid-template-rows: repeat(20, 200px);
+	    grid-template-columns: repeat(1, 1fr);
+	    grid-row-gap: 1.5rem;
+	}
+}

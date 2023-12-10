@@ -1,0 +1,71 @@
+body {
+	background: url('img/odont.jpg');
+	-webkit-background-size: 1560px 700px;
+	background-size: 1560px 700px;
+	background-attachment: fixed;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+
+}
+
+.contenedor {
+	width: 100%;
+	max-width: 1570px;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: 1150px 1000px 0px 470px;
+	grid-template-areas: "header  		header  		header  		header  		header"
+						 "contenido1 	contenido1  	contenido1  	contenido1  	contenido1"
+						 "pub  			pub 			pub  			pub  			pub"
+						 "contactanos 	contactanos  	contactanos  	contactanos  	contactanos";
+}
+
+.hdr {
+  height: 70px;
+  width: 100%;
+  background: rgba(71, 89, 217, .8);
+  /*background: rgba(255,255,255, .8);*/
+  position: fixed; 
+  z-index: 3;
+}
+.redes {
+	margin-top: 140px;
+	width: 5%;
+	height: 45%;
+	background: rgba(0, 0, 0, .4); z-index: 3;
+}
+.redes div {
+	padding: .6rem;
+	background: rgba(85, 143, 249, .89);
+	border: 2px solid rgba(85, 143, 255, 1);
+}  .redes div a { height: 100%; text-decoration: none; color: rgba(255, 255, 255, .78); } .redes div a i {font-size: 4rem;} .redes div:hover {background: rgba(255,255,255, 1);}
+	.redes div a .facebookico:hover {color: #3b5998;} .redes div a .twitterico:hover {color: #1da1f2;} .redes div a .instagramico:hover {color: #e1306c;} .redes div a .whatsappico:hover {width: 100%; color: #25d366; opacity: .7; background: rgba(255,255,255, 0);}
+
+.contenedor .header {
+	/*background: rgba(71, 89, 217, .49);*/
+	background: rgba(5, 5, 5, .4);
+	grid-area: header;
+}
+
+.contenedor .contenido1 {
+	background: rgba(0, 224, 201, .89);
+	grid-area: contenido1 ;
+}
+
+.contenedor .pub {
+	background: rgba(85, 143, 249, .89);
+	grid-area: pub ;
+}
+
+.contenedor .contactanos {
+	background: rgba(62, 62, 62, .97);
+	grid-area: contactanos ; z-index: 1;
+}
+
+.contenedor .contactanos .cop .logoR {
+	width: auto;
+	height: auto;
+	align-self: center;
+}

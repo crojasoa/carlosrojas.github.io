@@ -1,0 +1,67 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: url("img/bg2.png");
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	font-size: 16px;
+	width: 100%;
+	font-family: 'Francois One', Arial, Helvetica ;
+}
+.contenedor {
+	width: 100%;
+	margin: auto;
+	display: grid;
+	grid-gap: 0;
+	background: rgba(255, 250, 255, .6);
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: 600px 600px 900px 1400px;
+
+	grid-template-areas: "servicios 	servicios 		servicios		servicios 		servicios"
+	   					 "quienesSomos	quienesSomos    quienesSomos  	quienesSomos 	quienesSomos"
+	   					 "galeria  		galeria  		galeria  		galeria 		galeria"
+	   					 "footer 		footer 			footer  		footer 			footer";
+}
+
+body header {
+	width: 90%
+	max-width: 1500px;
+	margin: auto;
+	height: auto;
+	background: rgba(99, 199, 178, .8);
+	margin: auto;
+}
+
+
+.contenedor .contenido1 {
+background: rgba(255, 255, 255, .4);
+grid-area: servicios;
+width: 100%;
+height: auto;	
+margin: 0;
+}
+
+.contenedor .quienesSomos {
+background: rgba(0, 165, 207, .7);
+grid-area: quienesSomos;
+width: 100%;
+height: auto;	
+}
+
+.contenedor .galeria {
+background: rgba(255, 255, 255, .7);
+grid-area: galeria;	
+width: 100%;
+height: 100%;
+}
+
+.contenedor .footer {
+background: rgba(0, 255, 200, .5);
+grid-area: footer;
+width: 100%;
+height: auto;	
+}
