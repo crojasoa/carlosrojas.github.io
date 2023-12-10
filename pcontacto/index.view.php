@@ -69,19 +69,19 @@
 			
 				<div class="m-1 p-1 m-sm-2 p-sm-2 inside col-12 col-md-4 rounded d-flex justify-content-between flex-wrap flex-column ">
 					<div class="contactoC d-flex justify-content-center">
-						<p class="contacto text-dark p-2">Email: rene@ramesptop.com <br/> ramesptop@protonmail.com</p>
+						<p class="contacto text-dark p-2">Email: crojasoa@gmail.com <br/> crojasoa@gmail.com</p>
 						<i class="pt-4 correo contactoI fas fa-envelope"></i>
 					</div>
 					<div class="contactoC d-flex justify-content-center">
-						<p class="contacto text-dark p-2">Telefono: +51 941-339-689</p>
+						<p class="contacto text-dark p-2">Teléfono: +51 959-826-989</p>
 						<i class="p-2 telefono contactoI fas fa-phone-square"></i>
 					</div>
 					<div class="contactoC d-flex justify-content-center">
-						<p class="contacto text-dark p-2">Telegram: @RamEsptop</p>
+						<p class="contacto text-dark p-2">Telegram: @crojasoa</p>
 						<i class="p-2 telegram contactoI fab fa-telegram"></i>
 					</div>
 					<div class="contactoC d-flex justify-content-center">
-						<p class="contacto text-dark p-2">Signal: +51 941-339-689</p>
+						<p class="contacto text-dark p-2">Signal: +51 959-826-989</p>
 						<i class="p-2 signal contactoI far fa-comment"></i>
 					</div>	
 				</div>	
@@ -120,7 +120,7 @@
 			<!--<div class="logof m-auto col-4 bg-white p-1 d-flex rounded ">
 				<img class="logoF img-fluid" src="img/logo1.png" alt="">		
 			</div>	-->
-      		<p class="text-light mt-4 h6 mr-3">Diseñado y Desarrollado por RamSolutions Web Design - 2021</p>		
+      		<p class="text-light mt-4 h6 mr-3">Diseñado y Desarrollado por RamSolutions Web Design - 2023</p>		
 		</div>
 	</footer>
 	
